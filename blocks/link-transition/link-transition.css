@@ -1,0 +1,9 @@
+.link-transition:hover {
+  transition: .3s;
+  opacity: 0.2;
+}
+
+.link-transition_img:hover .cover__background_opacity{
+  transition: .3s;
+  opacity: 0.7;
+}

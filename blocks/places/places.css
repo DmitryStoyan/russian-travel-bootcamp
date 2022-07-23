@@ -1,0 +1,7 @@
+.places {
+  display: grid;
+  grid-row-gap: 80px;
+  max-width: 984px;
+  margin: 0 auto;
+  outline: 3px solid red;
+}

@@ -1,0 +1,12 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  grid-template-areas:
+  "title website"
+  "image paragraph";
+  /* max-height: 660px; */
+  max-width: 984px;
+  /* margin-bottom: 92px; */
+  outline: 3px solid red;
+}

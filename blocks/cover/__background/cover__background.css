@@ -1,0 +1,10 @@
+.cover__background {
+  background-image: url(../../../images/cover/cover.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1184px;
+  height: 740px;
+  margin: 0 auto;
+  outline: 3px solid red;
+  /* z-index: -1; */
+}

@@ -1,0 +1,6 @@
+.place__image {
+  grid-area: image;
+  max-width: 460px;
+  margin: 0 40px 0 0;
+  outline: 3px solid red;
+}

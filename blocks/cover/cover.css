@@ -1,0 +1,8 @@
+.cover {
+  max-width: 1184px;
+  position: relative;
+  /* display: inline-flex; */
+  /* margin-bottom: 92px; */
+  margin: 92px auto 92px auto;
+  outline: 3px solid red;
+}
