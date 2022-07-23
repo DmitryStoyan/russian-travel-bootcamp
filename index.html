@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Путешествия по России</title>
   <link rel="stylesheet" href="./vendor/normalize.css">
-	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="page">
@@ -75,41 +75,41 @@
     <!-- Photo-grid start -->
       <div class="photo-grid">
         <ul class="photo-grid__list">
-          <li>
-            <img src="./images/photo-grid/item-1.png" alt="фото из окна поезда" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-1.png" alt="фото из окна поезда" class="photo">
           </li>
-          <li>
-            <img src="./images/photo-grid/item-2.png" alt="ото горы с высоты" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-2.png" alt="ото горы с высоты" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-3.png" alt="фото собаки на стогу сена" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-3.png" alt="фото собаки на стогу сена" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-4.png" alt="фото леса в тумане" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-4.png" alt="фото леса в тумане" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-5.png" alt="фото колеса машины на льду" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-5.png" alt="фото колеса машины на льду" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-6.png" alt="фото моря" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-6.png" alt="фото моря" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-7.png" alt="фото гор" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-7.png" alt="фото гор" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-8.png" alt="фото дорожного знака" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-8.png" alt="фото дорожного знака" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-9.png" alt="фото гор" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-9.png" alt="фото гор" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-10.png" alt="фото горы" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-10.png" alt="фото горы" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-11.png" alt="фото моря и гор" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-11.png" alt="фото моря и гор" class="photo">>
           </li>
-          <li>
-            <img src="./images/photo-grid/item-12.png" alt="фото горы в тумане" class="photo-grid__item">
+          <li class="photo-grid__item">
+            <img src="./images/photo-grid/item-12.png" alt="фото горы в тумане" class="photo">>
           </li>
         </ul>
       </div>
@@ -218,16 +218,18 @@
     <!-- Places end -->
 
     <!-- Cover start -->
-    <a href="#">
+    <a href="#" class="link-transition_img">
       <div class="cover">
         <div class="cover__background"></div>
-          <div class="cover__background_opacity link-transition_img"></div>
-        <h2 class="cover__title">
-          До Байкала «на собаках»
-        </h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-        </p>
+          <div class="cover__background_opacity"></div>
+          <div class="cover__text">
+            <h2 class="cover__title">
+              До Байкала «на собаках»
+            </h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+            </p>
+          </div>
       </div>
     </a>
     <!-- Cover end -->
@@ -236,21 +238,21 @@
     <footer class="footer">
       <nav class="footer__nav">
         <ul class="footer__links">
-          <a href="https://yandex.ru/maps" class="footer__link link-transition">
-            <li class="footer__link">Карты</li>
-          </a>
-          <a href="https://yandex.ru/pogoda" class="footer__link link-transition">
-            <li class="footer__link">Погода</li>
-          </a>
-          <a href="https://rasp.yandex.ru" class="footer__link link-transition">
-            <li class="footer__link">Расписание</li>
-          </a>
-          <a href="https://calendar.yandex.ru" class="footer__link link-transition">
-            <li class="footer__link">Календарь</li>
-          </a>
-          <a href="https://travel.yandex.ru" class="footer__link link-transition">
-            <li class="footer__link">Путешествия</li>
-          </a>
+            <li class="footer__link">
+              <a href="https://yandex.ru/maps" class="footer__link link-transition">Карты</a>
+            </li>
+            <li class="footer__link">
+              <a href="https://yandex.ru/pogoda" class="footer__link link-transition">Погода</a>
+            </li>
+            <li class="footer__link">
+              <a href="https://rasp.yandex.ru" class="footer__link link-transition">Расписание</a>
+            </li>
+            <li class="footer__link">
+              <a href="https://calendar.yandex.ru" class="footer__link link-transition">Календарь</a>
+            </li>
+            <li class="footer__link">
+              <a href="https://travel.yandex.ru" class="footer__link link-transition">Путешествия</a>
+            </li>
         </ul>
       </nav>
       <p class="footer__author">
