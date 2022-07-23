@@ -8,8 +8,8 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/lang-link/lang-link.css);
-@import url(../blocks/header/__lang/header__lang_ru.css);
-@import url(../blocks/header/__lang/header__lang_en.css);
+@import url(../blocks/header/__en/header__en.css);
+@import url(../blocks/header/__ru/header__ru.css);
 /* Header end */
 
 /* Lead start */
