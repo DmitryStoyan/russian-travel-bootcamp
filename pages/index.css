@@ -17,7 +17,7 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../blocks/lead/__image/lead__image_subtitle.css);
+@import url(../blocks/lead/__signature/lead__signature.css);
 /* Lead end */
 
 /* Intro start */
@@ -47,13 +47,13 @@
 /* Places end */
 
 /* Cover start */
-@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__wrapper/cover__wpapper.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__background/_opacity/cover_background_opacity.css);
-@import url(../blocks/cover/__link-transition/cover__link-transition_img.css);
+@import url(../blocks/cover/__opacity/cover__opacity.css);
+@import url(../blocks/cover/cover.css);
 /* Cover end */
 
 /* Footer start */
