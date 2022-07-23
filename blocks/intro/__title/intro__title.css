@@ -1,11 +1,9 @@
 .intro__title {
   max-width: 690px;
-  /* max-height: 58px; */
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   color: #FFFFFF;
   margin: 92px 0 0 0;
-  outline: 3px solid red;
 }

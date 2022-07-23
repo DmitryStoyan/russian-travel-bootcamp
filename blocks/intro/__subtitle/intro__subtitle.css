@@ -1,11 +1,9 @@
 .intro__subtitle {
   max-width: 690px;
-  /* max-height: 208px; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
   color: #FFFFFF;
   margin: 40px 0 33px 0;
-  outline: 3px solid red;
 }

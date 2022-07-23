@@ -1,9 +1,5 @@
 .lead__image {
-  /* max-width: 984px; */
-  /* max-height: 615px; */
   width: 100%;
   display: block;
   margin: 0 auto;
-  /* outline: 3px solid red; */
-  /* object-fit: contain; */
 }
