@@ -119,11 +119,6 @@
 .intro__list {
   max-width: 720px;
   max-height: 90px;
-}
-
-.intro__list {
-  max-width: 720px;
-  /* max-height: 90px; */
   margin: 0 0 88px 0;
 }
 

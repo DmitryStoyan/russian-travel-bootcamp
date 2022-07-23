@@ -174,7 +174,6 @@ Usage:
 	font-weight: 100 900;
 	font-display: swap;
 	font-style: normal;
-	font-named-instance: 'Regular';
 	src: url(../fonts/Inter-3.19/Inter-Web/Inter-roman.var.woff2) format("woff2");
 }
 
@@ -183,7 +182,6 @@ Usage:
 	font-weight: 100 900;
 	font-display: swap;
 	font-style: italic;
-	font-named-instance: 'Italic';
 	src: url(../fonts/Inter-3.19/Inter-Web/Inter.var.woff2) format("woff2");
 }
 
