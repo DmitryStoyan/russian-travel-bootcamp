@@ -7,3 +7,20 @@
   color: #FFFFFF;
   margin: 92px 0 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-width: 690px;
+    /* max-height: 58px; */
+}
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    max-width: 288px;
+    /* max-height: 70px; */
+    font-size: 32px;
+    line-height: 35px;
+    margin: 64px auto 40px auto;
+  }
+}

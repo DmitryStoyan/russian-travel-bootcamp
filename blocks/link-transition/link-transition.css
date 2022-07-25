@@ -3,7 +3,7 @@
   opacity: 0.2;
 }
 
-.cover__link-transition_img:hover .cover__background_opacity{
+.cover:hover .cover__opacity{
   transition: .3s;
   opacity: 0.7;
 }

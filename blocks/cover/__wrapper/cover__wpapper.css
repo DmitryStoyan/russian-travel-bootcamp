@@ -3,3 +3,11 @@
   position: relative;
   margin: 92px auto 92px auto;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__wrapper {
+    max-width: 320px;
+    position: relative;
+    margin: 66px auto 64px auto;
+  }
+}

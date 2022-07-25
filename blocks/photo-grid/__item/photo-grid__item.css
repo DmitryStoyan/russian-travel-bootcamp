@@ -1,6 +1,35 @@
 .photo-grid__item {
   display: flex;
-  max-width: 284px;
+  width: 100%;
   padding: 0;
   margin: 0 auto;
+}
+
+.photo-grid__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    margin: 0 auto;
+    height: 225px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__item {
+    max-width: 352px;
+    height: 264px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    margin: 0 auto;
+    max-width: 288px;
+    height: 216px;
+  }
 }

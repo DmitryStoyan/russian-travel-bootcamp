@@ -6,3 +6,17 @@
   color: #FFFFFF;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place__link {
+    font-size: 18px;
+    line-height: 122%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    font-size: 18px;
+    line-height: 122%;
+  }
+}

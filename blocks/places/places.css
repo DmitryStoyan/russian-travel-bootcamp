@@ -4,3 +4,18 @@
   max-width: 984px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+  .places {
+    grid-row-gap: 73px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    display: grid;
+    grid-row-gap: 50px;
+    max-width: 320px;
+  }
+}

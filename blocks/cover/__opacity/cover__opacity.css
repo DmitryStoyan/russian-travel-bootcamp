@@ -7,3 +7,33 @@
   background: #2A2C2F;
   opacity: 0.3;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__opacity{
+    position: absolute;
+    width: 1024px;
+    height: 640px;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__opacity{
+    position: absolute;
+    width: 768px;
+    height: 480px;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__opacity{
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    top: 0;
+    left: 0;
+  }
+}

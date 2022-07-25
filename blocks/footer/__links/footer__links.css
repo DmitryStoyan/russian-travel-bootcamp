@@ -3,3 +3,13 @@
   padding: 0;
   display: flex;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    display: grid;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+}

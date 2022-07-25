@@ -5,3 +5,19 @@
   margin: 0 0 92px 0;
   padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+    max-height: 90px;
+    margin: 0 0 88px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+    /* max-height: 90px; */
+    margin: 0 auto 63px auto;
+  }
+}

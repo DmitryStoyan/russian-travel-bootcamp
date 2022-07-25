@@ -1,4 +1,10 @@
-.lang-link_ru {
+.header__ru {
   margin: 46px 18px 0 0;
   color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+  .lang-link_ru {
+    margin: 30px 18px 0 0;
+  }
 }

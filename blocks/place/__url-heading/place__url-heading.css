@@ -6,3 +6,17 @@
   color: #AAAAAA;
   margin: 0 0 12px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place__url-heading {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 100%;
+  }
+}
