@@ -5,15 +5,15 @@
   "title website"
   "image paragraph";
   max-width: 984px;
-}
+} */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
   }
-}
+} */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .place {
     display: inline-block;
     margin: 0;
@@ -22,9 +22,33 @@
 
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 460px 484px;
   grid-template-areas:
   "title website"
   "image paragraph";
   gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    display: grid;
+    grid-template-columns: 440px 456px;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: 340px 352px;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: inline-block;
+    margin: 0;
+    gap: 50px;
+  }
 }

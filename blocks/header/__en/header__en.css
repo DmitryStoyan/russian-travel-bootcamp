@@ -1,6 +1,11 @@
 .header__en {
   margin: 46px 48px 0 0;
   color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -10,7 +15,12 @@
 }
 
 @media screen and (max-width: 320px) {
-  .lang-link_en {
+  .header__en {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111%;
     margin: 30px 16px 0 0;
   }
 }

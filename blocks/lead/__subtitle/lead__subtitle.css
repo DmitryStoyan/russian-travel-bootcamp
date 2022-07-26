@@ -17,13 +17,13 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-		margin: 0 auto 64px auto;
+		margin: 0 auto 56px auto;
 	}
 }
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-		margin: 0 auto 64px auto;
+		margin: 0 auto 40px auto;
 		max-width: 288px;
 		/* max-height: 40px; */
 		font-size: 16px;

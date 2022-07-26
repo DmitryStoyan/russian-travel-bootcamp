@@ -11,19 +11,19 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-		margin: 128px auto 32px auto;
+		margin: 48px auto 32px auto;
 	}
 }
 
 @media screen and (max-width: 768px) {
   .lead__title {
-		margin: 128px auto 32px auto;
+		margin: 48px auto 32px auto;
 	}
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
-		margin: 106px auto 16px auto;
+		margin: 48px auto 16px auto;
 		max-width: 288px;
 		font-size: 40px;
 		line-height: 44px;

@@ -11,8 +11,10 @@
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 114%;
+    line-height: 16px;
   }
 }

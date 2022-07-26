@@ -6,12 +6,13 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: 8px 0 0 0;
+  margin: 8px auto 92px auto;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__signature{
-    margin: 8px 0 0 48px;
+    max-width: 928px;
+    margin: 8px auto 92px auto;
   }
 }
 
@@ -23,6 +24,7 @@
 
 @media screen and (max-width: 320px) {
   .lead__signature {
+    max-width: 320px;
     margin: 8px 0 0 16px;
   }
 }
