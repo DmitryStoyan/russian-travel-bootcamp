@@ -1,5 +1,5 @@
 .place__paragraphs {
-  max-width: 484px;
+  /* max-width: 484px; */
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,4 +1,4 @@
-.place {
+/* .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
@@ -18,4 +18,13 @@
     display: inline-block;
     margin: 0;
   }
+} */
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "title website"
+  "image paragraph";
+  gap: 48px 40px;
 }
