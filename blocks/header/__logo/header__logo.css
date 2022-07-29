@@ -4,7 +4,7 @@
   height: 52px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 28px 0 0 48px;
+  margin: 28px 0 0 0;
 }
 
 @media screen and (max-width: 768px) {

@@ -8,28 +8,28 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="body">
   <div class="page">
-    <div class="wrapper">
-      <!-- Header start -->
-      <header class="header">
-        <div class="header__logo"></div>
-        <ul class="header__lang">
-          <li class="lang-link">
-            <a href="#" class="header__ru">
-              Ru
-            </a>
-          </li>
-          <li class="lang-link">
-            <a href="#" class="header__en">
-              En
-            </a>
-          </li>
-        </ul>
-      </header>
-      <!-- Header end -->
+    <!-- Header start -->
+    <header class="header">
+      <div class="header__logo"></div>
+      <ul class="header__list">
+        <li class="header__items">
+          <a href="#" class="header__link-ru header__items_active">
+            Ru
+          </a>
+        </li>
+        <li class="lang-link">
+          <a href="#" class="header__link-en">
+            En
+          </a>
+        </li>
+      </ul>
+    </header>
+    <!-- Header end -->
 
-      <!-- Lead start -->
+    <!-- Lead start -->
+    <section class="main">
       <section class="lead">
         <h1 class="lead__title">
           Путешествия по России
@@ -47,7 +47,7 @@
       <!-- Lead end -->
 
       <!-- Intro start -->
-      <div class="intro">
+      <section class="intro">
         <h2 class="intro__title">
           Чего мы там не видели?
         </h2>
@@ -61,26 +61,26 @@
         </p>
         <ul class="intro__list">
           <li class="intro__item">
-            Часовых поясов 11
+            Часовых поясов <span class="intro__item_number">11</span>
           </li>
           <li class="intro__item">
-            Объектов природного наследия ЮНЕСКО 12
+            Объектов природного наследия ЮНЕСКО <span class="intro__item_number">12</span>
           </li>
           <li class="intro__item">
-            Объектов культурного наследия ЮНЕСКО 16
+            Объектов культурного наследия ЮНЕСКО <span class="intro__item_number">16</span>
           </li>
           <li class="intro__item">
-            Природных заповедников 105
+            Природных заповедников <span class="intro__item_number">105</span>
           </li>
           <li class="intro__item">
-            Аэропортов 241
+            Аэропортов <span class="intro__item_number">241</span>
           </li>
         </ul>
-      </div>
+      </section>
       <!-- Intro end -->
 
       <!-- Photo-grid start -->
-      <div class="photo-grid">
+      <section class="photo-grid">
         <ul class="photo-grid__list">
           <li class="photo-grid__item">
             <img src="./images/photo-grid/item-1.png" alt="фото из окна поезда" class="photo-grid__img">
@@ -119,20 +119,20 @@
             <img src="./images/photo-grid/item-12.png" alt="фото горы в тумане" class="photo-grid__img">
           </li>
         </ul>
-      </div>
+      </section>
       <!-- Photo-grid end -->
 
       <!-- Places start -->
-      <div class="places">
+      <section class="places">
         <div class="place">
           <h2 class="place__title">
             Куршская коса
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
-            <a href="http://park-kosa.ru" class="place__link link-transition">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="place__link link-transition" target="_blank">park-kosa.ru</a>
           </div>
           <img src="./images/places/curonian-spit.png" alt="фото куршского залива" class="place__image">
           <div class="place__paragraphs">
@@ -156,10 +156,10 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-              class="place__link link-transition">National Geographic</a>
+              class="place__link link-transition" target="_blank">National Geographic</a>
           </div>
           <img src="./images/places/kola.png" alt="фото заснеженной горы" class="place__image">
           <div class="place__paragraphs">
@@ -181,10 +181,10 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-              class="place__link link-transition">Facebook</a>
+              class="place__link link-transition" target="_blank">Facebook</a>
           </div>
           <img src="./images/places/altai.png" alt="фото леса" class="place__image">
           <div class="place__paragraphs">
@@ -205,9 +205,10 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
-            <a href="https://vk.com/baikalmile" class="place__link link-transition">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="place__link link-transition"
+              target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/places/winter-baikal.png" alt="фото леса" class="place__image">
           <div class="place__paragraphs">
@@ -227,9 +228,9 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
-            <a href="http://vodlozero.ru" class="place__link link-transition">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="place__link link-transition" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img src="./images/places/karelia.png" alt="фото реки" class="place__image">
           <div class="place__paragraphs">
@@ -241,14 +242,12 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Places end -->
 
       <!-- Cover start -->
-      <a href="#" class="cover">
-        <div class="cover__wrapper">
-          <div class="cover__background"></div>
-          <div class="cover__opacity"></div>
+      <section class="cover">
+        <a href="#" class="cover__link">
           <div class="cover__text">
             <h2 class="cover__title">
               До Байкала «на собаках»
@@ -257,37 +256,36 @@
               По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
             </p>
           </div>
-        </div>
-      </a>
-      <!-- Cover end -->
-
-      <!-- Footer start -->
-      <footer class="footer">
-        <nav class="footer__nav">
-          <ul class="footer__links">
-            <li class="footer__link-item">
-              <a href="https://yandex.ru/maps" class="footer__link link-transition">Карты</a>
-            </li>
-            <li class="footer__link-item">
-              <a href="https://yandex.ru/pogoda" class="footer__link link-transition">Погода</a>
-            </li>
-            <li class="footer__link-item">
-              <a href="https://rasp.yandex.ru" class="footer__link link-transition">Расписание</a>
-            </li>
-            <li class="footer__link-item">
-              <a href="https://calendar.yandex.ru" class="footer__link link-transition">Календарь</a>
-            </li>
-            <li class="footer__link-item">
-              <a href="https://travel.yandex.ru" class="footer__link link-transition">Путешествия</a>
-            </li>
-          </ul>
-        </nav>
-        <p class="footer__author">
-          &copy; 2022. Стоян Дмитрий
-        </p>
-      </footer>
-      <!-- Footer end -->
-    </div>
+        </a>
+  </div>
+  </section>
+  </section>
+  <!-- Footer start -->
+  <footer class="footer">
+    <nav class="footer__nav">
+      <ul class="footer__links">
+        <li class="footer__link-item">
+          <a href="https://yandex.ru/maps" class="footer__link link-transition" target="_blank">Карты</a>
+        </li>
+        <li class="footer__link-item">
+          <a href="https://yandex.ru/pogoda" class="footer__link link-transition" target="_blank">Погода</a>
+        </li>
+        <li class="footer__link-item">
+          <a href="https://rasp.yandex.ru" class="footer__link link-transition" target="_blank">Расписание</a>
+        </li>
+        <li class="footer__link-item">
+          <a href="https://calendar.yandex.ru" class="footer__link link-transition" target="_blank">Календарь</a>
+        </li>
+        <li class="footer__link-item">
+          <a href="https://travel.yandex.ru" class="footer__link link-transition" target="_blank">Путешествия</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="footer__author">
+      &copy; 2022. Стоян Дмитрий
+    </p>
+  </footer>
+  <!-- Footer end -->
   </div>
 </body>
 

@@ -1,0 +1,36 @@
+.cover__link {
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1184px;
+  height: 740px;
+  margin: 0 auto;
+  text-decoration: none;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../../../images/cover/cover.png);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    width: 1024px;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    width: 320px;
+    height: 200px;
+    background-size: contain
+  }
+}
+
+.cover__link:hover {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../../images/cover/cover.png);
+}

@@ -1,7 +1,24 @@
 .header {
   display: flex;
   justify-content: space-between;
-  position: relative;
-  max-width: 1280px;
-  height: 100%;
+  margin: 0 auto;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: 288px;
+  }
 }

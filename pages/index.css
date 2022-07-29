@@ -1,16 +1,16 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/Inter-3.19/Inter-Web/inter.css);
+@import url(../vendor/fonts/Inter-3.19/Inter-Web/inter.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/body/body.css);
 
 
 /* Header start */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/lang-link/lang-link.css);
-@import url(../blocks/header/__en/header__en.css);
-@import url(../blocks/header/__ru/header__ru.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__link-ru/header__link-ru.css);
+@import url(../blocks/header/__link-en/header__link-en.css);
+@import url(../blocks/header/__items/_active/header__items_active.css);
 /* Header end */
 
 /* Lead start */
@@ -27,6 +27,7 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__item/_number/intro__item_number.css);
 /* Intro end */
 
 /* Photo-grid start */
@@ -48,13 +49,11 @@
 /* Places end */
 
 /* Cover start */
-@import url(../blocks/cover/__wrapper/cover__wpapper.css);
-@import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__text/cover__text.css);
-@import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__opacity/cover__opacity.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__title/cover__title.css);
 /* Cover end */
 
 /* Footer start */
@@ -65,5 +64,4 @@
 @import url(../blocks/footer/__nav/footer__nav.css);
 /* Footer end */
 
-@import url(../responsive/responsive.css);
 @import url(../blocks/link-transition/link-transition.css);

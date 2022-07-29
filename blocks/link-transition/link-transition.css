@@ -1,6 +1,6 @@
 .link-transition:hover {
   transition: .3s;
-  opacity: 0.2;
+  opacity: 0.8;
 }
 
 .cover:hover .cover__opacity{
