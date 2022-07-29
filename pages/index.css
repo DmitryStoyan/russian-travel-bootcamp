@@ -10,7 +10,7 @@
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__link-ru/header__link-ru.css);
 @import url(../blocks/header/__link-en/header__link-en.css);
-@import url(../blocks/header/__items/_active/header__items_active.css);
+@import url(../blocks/header/_active/header__link-ru_active.css);
 /* Header end */
 
 /* Lead start */
@@ -27,7 +27,7 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
-@import url(../blocks/intro/__item/_number/intro__item_number.css);
+@import url(../blocks/intro/__number/intro__item_number.css);
 /* Intro end */
 
 /* Photo-grid start */
