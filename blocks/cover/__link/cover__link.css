@@ -8,7 +8,6 @@
   margin: 0 auto;
   text-decoration: none;
   background-image: url(../../../images/cover/cover.png);
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
