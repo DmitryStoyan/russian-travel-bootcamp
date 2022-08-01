@@ -11,14 +11,12 @@
 @media screen and (max-width: 768px) {
   .intro__subtitle {
     max-width: 720px;
-    /* max-height: 208px; */
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__subtitle {
     max-width: 288px;
-    /* max-height: 520px; */
     margin: 40px auto 34px auto;
   }
 

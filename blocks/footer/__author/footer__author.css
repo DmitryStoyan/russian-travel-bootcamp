@@ -9,5 +9,6 @@
   .footer__author {
     margin: 48px 0 24px 0;
     color: #FFFFFF;
+    line-height: 14px;
   }
 }

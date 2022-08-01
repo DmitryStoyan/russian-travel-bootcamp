@@ -1,5 +1,5 @@
-.header__link-en {
-  margin: 0;
+.header__link {
+  margin: 0 18px 0 0;
   color: #ffffff;
   font-weight: 400;
   font-size: 24px;
@@ -8,19 +8,14 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-  .header__link-en {
-    margin: 46px 24px 0 0;
-  }
-}
-
 @media screen and (max-width: 320px) {
-  .header__link-en {
-    font-family: 'Inter';
-    font-style: normal;
+  .header__link {
     font-weight: 400;
     font-size: 18px;
     line-height: 111%;
-    margin: 30px 16px 0 0;
   }
+}
+
+ .header__item:last-child .header__link {
+  margin: 0;
 }
